@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  
+      <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+    <body>
+        <div role="banner" class="containers">
+          <div class="container1">
+            <div class="logo">
+              <img src="./images/logo.svg">
+            </div> 
+                                
+            <div class="container1-heading">
+                <div role="header" class="main-heading">
+                    <h1><span class="focus-heading">We're </span>coming soon</h1>
+                    <p class="main-para"> Hello fellow shoppers! We're currently building our new fashion store. 
+                    Add your email below to stay up-to-date with announcements and our launch deals.</p>
+                </div>
+            </div>
+            <div class="container1-email">
+                <form id="signup" name="form1" action="#" class="form">
+                      <div class="form-field email-submit">
+                        <input id="email" class="input-field" type="text" name="text1" placeholder="Email Address">
+                      </div>
+                      <div class="form-field">
+                          <img src="./images/icon-error.svg" class='icon'>
+                      </div>
+                      <div class="form-field">
+                          <button id="btn" class="btn" onclick="validateEmail(document.form1.text1)"><img class="arrow" src="./images/icon-arrow.svg" alt="image on an arrow"></button>
+                      </div>  
+                  <small>Please provide a valid email</small>       
+              </form>                    
+            </div>
+          </div>
+          <div class="container2">
+            <div role="contentinfo" class="container-hero">
+            </div>
+        </div>
+      </div>
+      <footer role="contentinfo">
+          <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" aria-label="link to frontend mentor website"title="FrontEnd Mentor">Frontend Mentor</a>. 
+          Coded by <a href="#" aria-label="link to coder of website">brian</a>.
+          </p>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
